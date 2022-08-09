@@ -26,6 +26,7 @@ h6{
 }
 
 main {
+    margin-left: 60px;
     display: flex;
 }
 
