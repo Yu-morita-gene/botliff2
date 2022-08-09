@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+body{
+    font-family: '游ゴシック','メイリオ',sans-serif;
+}
+
+p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(80,80,80);
+    margin-left: 30px;
+}
+
+#namecomment{
+    font-size:12px;
+}
+#codecomment{
+    font-size:12px;
+}
+
+.item1{
+    float:left;
+}
+.item2{
+    float:left;
+}

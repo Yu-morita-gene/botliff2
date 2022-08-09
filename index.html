@@ -1,11 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeneT</title>
+    <title>ユーザー登録</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+
+    <form class="w-75 mx-auto">
+        <p class="item1">氏名</p><p class="item1" id="namecomment">※フルネーム、空白(スペース)なし<br>&emsp;で入力してください。</p>
+        <input class="" type="text" required>
+        
+        <p class="item2">スタッフコード</p><p class="item2" id="codecomment">※半角英数<br>&emsp;で入力してください。</p>
+        <input class="" type="text" required>
+
+        <input type="submit" class="submit_button" value="送信する">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
     
+    <!-- <script>
+
+        $(document).ready(function () {
+            const liffId = "1657365828-3o8WY9rY";
+            initializeLiff(liffId);
+        })
+
+        function initializeLiff(liffId) {
+            liff.init({
+                liffId: liffId
+            }).then(() => {
+                initializeApp();
+            }).catch((err) => {
+                console.log('LIFF Initialization failed ', err);
+            });
+        }
+
+        function sendText(text) {
+            liff.sendMessages([{
+                'type': 'text',
+                'text': text
+            }]).then(function () {
+                liff.closeWindow();
+            }).catch(function (error) {
+                window.alert('Failed to send message ' + error);
+            });
+        }
+
+        const params = (new URL(document.location)).searchParams;
+        const key = params.get('key');
+
+        $(function () {
+            $('form').submit(function () {
+                const colorNum = $('select[name="colorNum"]').val();
+                const long_short  = $('select[name="long_short"]').val();
+                const design  = $('select[name="design"]').val();
+                const size = $('select[name="size"]').val();
+                const msg = `${colorNum}\n${long_short}\n${design}\n${size}`;
+                sendText(msg);
+                return false;
+            });
+        });
+
+    </script> -->
+
 </body>
 </html>
