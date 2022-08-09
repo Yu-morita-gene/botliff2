@@ -67,8 +67,8 @@
         $(function () {
             $('form').submit(function () {
                 const commandName = "ユーザー登録";
-                const userName = $('select[name="userName"]').val();
-                const userCode  = $('select[name="userCode"]').val();
+                const userName = $('input[name="userName"]').val();
+                const userCode  = $('input[name="userCode"]').val();
                 const msg = `${commandName}\n${userName}\n${userCode}`;
                 sendText(msg);
                 return false;
