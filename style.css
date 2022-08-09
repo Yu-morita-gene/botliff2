@@ -19,21 +19,12 @@ input{
     font-size:12px;
 }
 
-.form{
-    display:flex;
-    flex-wrap: wrap;
-    width: 600px;
-}
-.item1{
-    width:calc(100%/2);
-    padding: 20px 10px;
-    text-align:center;
+main {
+    display: flex;
 }
 
-.item2{
-    width:calc(100%/2);
-    padding: 20px 10px;
-    text-align:center;
+p {
+    display: inline-block;
 }
 
 .submit_button{
