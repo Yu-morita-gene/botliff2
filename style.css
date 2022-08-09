@@ -19,14 +19,21 @@ input{
     font-size:12px;
 }
 
+.form{
+    display:flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
 .item1{
-    float:left;
-    padding: 20px 30px;
+    width:calc(100%/2);
+    padding: 20px 10px;
+    text-align:center;
 }
 
 .item2{
-    float:left;
-    padding: 20px 30px;
+    width:calc(100%/2);
+    padding: 20px 10px;
+    text-align:center;
 }
 
 .submit_button{
