@@ -14,9 +14,11 @@ p{
 #namecomment{
     font-size:12px;
 }
+
 #codecomment{
     font-size:12px;
 }
+
 #codecomment2{
     font-size:12px;
 }
@@ -24,6 +26,20 @@ p{
 .item1{
     float:left;
 }
+
 .item2{
     float:left;
+}
+
+.submit_button{
+    width: 150px;
+    height: 45px;
+    margin:30 0 0 30;
+    background-color:lightblue;
+    color:white;
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: rgb(180,180,180);
+    font-size: 15px;
+
 }
