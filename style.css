@@ -21,19 +21,21 @@ input{
 
 #codecomment{
     font-size:12px;
+    margin: 10 0 30  0;
 }
 
 #codecomment2{
     font-size:12px;
+    margin: 10 0 30  0;
 }
 
 .item1{
     float:left;
 }
 
-/* .item2{
+.item2{
     float:left;
-} */
+}
 
 .submit_button{
     width: 150px;
