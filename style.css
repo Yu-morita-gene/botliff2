@@ -8,23 +8,25 @@ body{
     font-size: 15px;
     font-weight: bold;
     color: rgb(80,80,80);
-    margin-left: 30px;
+    margin: 30 0 0 20;
 }
 
 input{
-    margin: 0 0 20 30;
+    margin: 0 0 0 30;
 }
 
 .comment{
+    margin-top: 30px;
     font-size:12px;
+    color: rgb(150,150,150)
+}
+
+h6{
+    margin: 0 0 0 30;
 }
 
 main {
     display: flex;
-}
-
-p {
-    display: inline-block;
 }
 
 .submit_button{

@@ -12,14 +12,16 @@
 <body>
     <form>
         <main>
-            <div>氏名</div>
-            <div>※フルネーム、空白(スペース)なし<br>&emsp;で入力してください。</div>
+            <div class="caption">氏名</div>
+            <div class="comment">※フルネーム、空白(スペース)なし<br>&emsp;で入力してください。</div>
         </main>
-        <input name="userName" type="text" required>
-        <span></span>
-        <p>スタッフコード</p>
-        <p>※半角英数<br>&emsp;で入力してください。</p>
         
+        <input name="userName" type="text" required>
+        
+        <main>
+            <div class="caption">スタッフコード</div>
+            <div class="comment">※半角英数で入力してください。</div>
+        </main>
         
         <input name="userCode" type="text" required>
 
