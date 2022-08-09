@@ -4,7 +4,7 @@ body{
     font-family: '游ゴシック','メイリオ',sans-serif;
 }
 
-#namecaption ,#codecaption{
+.caption{
     font-size: 15px;
     font-weight: bold;
     color: rgb(80,80,80);
@@ -15,26 +15,18 @@ input{
     margin: 0 0 20 30;
 }
 
-#namecomment{
+.comment{
     font-size:12px;
-}
-
-#codecomment{
-    font-size:12px;
-    margin: 10 0 30  0;
-}
-
-#codecomment2{
-    font-size:12px;
-    margin: 10 0 30  0;
 }
 
 .item1{
     float:left;
+    padding: 20px 30px;
 }
 
 .item2{
     float:left;
+    padding: 20px 30px;
 }
 
 .submit_button{

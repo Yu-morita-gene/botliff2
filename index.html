@@ -12,21 +12,25 @@
 <body>
 
     <form class="w-75 mx-auto">
-        <div>
-            <p class="item1" id="namecaption">氏名</p>
-            <p class="item1" id="namecomment">※フルネーム、空白(スペース)なし<br>&emsp;で入力してください。</p>
+        <div class="item1">
+            <p class="caption">氏名</p>
+        </div>
+        <div class="item1">
+            <p class="comment">※フルネーム、空白(スペース)なし<br>&emsp;で入力してください。</p>
         </div>
         
         <input name="userName" type="text" required>
         
-        <div>
-            <p class="item2" id="codecaption">スタッフコード</p>
-            <p class="item2" id="codecomment">※半角英数<br>&emsp;で入力してください。</p>
+        <div class="item2">
+            <p class="caption">スタッフコード</p>
+        </div>
+        <div class="item2">
+            <p class="comment">※半角英数<br>&emsp;で入力してください。</p>
         </div>
         
         <input name="userCode" type="text" required>
 
-        <p id="codecomment2">※スタッフコードが不明な方は<br>&emsp;事務スタッフまでお問い合わせください。</p>
+        <p class="comment">※スタッフコードが不明な方は<br>&emsp;事務スタッフまでお問い合わせください。</p>
 
         <input type="submit" class="submit_button" value="送信する">
     </form>
